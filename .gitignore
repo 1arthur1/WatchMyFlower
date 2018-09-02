@@ -1,33 +1,5 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
+CC2541DB/CC2541DK-MINI\ Keyfob/*
+CC2541DB/settings/*
+CC2541DB/*.ewt
+CC2541DB/*.dep
+CC2541DB/Backup\ of\ SimpleBLEPeripheral.ewp

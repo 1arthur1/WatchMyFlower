@@ -2,6 +2,10 @@
 DIY BLE Soil Humidity Sensor
 I wanted to quickly realize this project so I chose to do the whole project without doing any custom PCB. I'm only using breakout boards.
 
+# Software
+
+For the CC2541, you can only use IAR embedded workbench for 8051. You also need to install the BLE CC254x stack from Texas Instruments on your computer (I use the 1.4.2.2 version). This repositorie needs to be put in the "ble" folder of the BLE stack's project (C:\Texas Instruments\BLE-CC254x-1.4.2.2\Projects\ble\WatchMyFlower).
+
 # Hardware needed
 * [CC2541 - The brain](https://www.aliexpress.com/item/HM-10-cc2541-4-0-BLE-bluetooth-to-uart-transceiver-Module-Central-Peripheral-switching-iBeacon-AirLocate/32652355508.html)
 * [Soil Humidity Sensor](https://www.aliexpress.com/item/10pcs-Soil-Humidity-Sensor-Module-Hygrometer-Detection-Module-for-Arduino-AVR/32576273359.html)
